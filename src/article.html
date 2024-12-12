@@ -8,41 +8,28 @@
   <title>Article</title>
 </head>
 
-<body class="bg-gray-900 text-gray-300">
+<body class="bg-gray-900">
 
-  <!-- Conteneur principal pour diviser la page en deux parties -->
-  <div class="flex mt-10">
-
-    <!-- Partie Grille à gauche -->
-    <div class="p-6  grid-cols-1 mx-auto rounded-xl shadow-lg gap-4 mt-10 w-1/2 flex items-center justify-center">
-      <!-- Affichage de l'image -->
-      <img src="img/kid/enfant-chemise-carreaux.jpg" class="w-40 h-40 sm:mx-auto" alt="Image 1">
-    </div>
-
-    <!-- Partie Menu avec options à droite -->
-    <div class="w-1/2 bg-gray-900 p-6">
-      <!-- Section Titre -->
-      <div class="mb-6">
-        <h3 class="text-2xl font-bold">Titre du produit</h3>
-        <span class="text-lg font-semibold">Prix : 29,99€</span>
-      </div>
-
-      <!-- Sélection de couleurs avec des boutons interactifs -->
-      <div class="mb-6">
-        <h4 class="text-lg font-semibold mb-2">Choisissez une couleur :</h4>
-        <div class="flex space-x-3">
-          <!-- Options couleurs -->
-          <div tabindex="0"
-            class="w-12 h-12 rounded-full bg-red-500 cursor-pointer ring-2 ring-transparent focus:ring-red-300 hover:ring-red-400">
+  <form>
+    <img src="img/kid/enfant-chemise-carreaux.jpg" />
+    <div>
+    
+        <fieldset class="forced-color-adjust-none lg:forced-color-adjust-auto ...">
+          <legend>Choose a color:</legend>
+          <select class="hidden lg:block">
+            <option value="White">White</option>
+            <option value="Gray">Gray</option>
+            <option value="Black">Black</option>
+          </select>
+          <div class="lg:hidden">
+            <label>
+              <input class="sr-only" type="radio" name="color-choice" value="White" />
+              <!-- ... -->
+            </label>
+            <!-- ... -->
           </div>
-          <div tabindex="0"
-            class="w-12 h-12 rounded-full bg-blue-500 cursor-pointer ring-2 ring-transparent focus:ring-blue-300 hover:ring-blue-400">
-          </div>
-          <div tabindex="0"
-            class="w-12 h-12 rounded-full bg-green-500 cursor-pointer ring-2 ring-transparent focus:ring-green-300 hover:ring-green-400">
-          </div>
-        </div>
-      </div>
+        </fieldset>
+      </form>
 
       <!-- Section pour les tailles -->
       <div class="mb-6">
