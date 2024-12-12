@@ -3,15 +3,16 @@ module.exports = {
   content: ["./src/**/*.{html,js}"], // Scanne tous les fichiers HTML et JS dans src
   theme: {
     extend: {
-      keyframes: {
-        wiggle: {
-          '0%, 100%': { transform: 'rotate(-3deg)' },
-          '50%': { transform: 'rotate(3deg)' },
-        }
-      },
-      animation: {
-        wiggle: 'wiggle 1s ease-in-out infinite',
-      },
+      // keyframes: {
+      //   wiggle: {
+      //     '0%, 100%': { transform: 'rotate(-3deg)' },
+      //     '50%': { transform: 'rotate(3deg)' },
+      //   }
+      // },
+     
+      // animation: {
+      //   wiggle: 'wiggle 1s ease-in-out infinite',
+      // },
       keyframes: {
         slide: {
           '0%': { transform: 'translateX(0%)' },
@@ -24,7 +25,9 @@ module.exports = {
       animation: {
         slide: 'slide 10s linear infinite',
       },
+      
     },
   },
   plugins: [],
+  
 };
