@@ -6,11 +6,8 @@
   <link href="./output.css" rel="stylesheet">
   <title>Index</title>
 </head>
-<body class="bg-auto bg-no-repeat bg-center ..." style="background-image: url(/src/img/img-font.jpg)">
-  
-<body class="bg-cover bg-center" style="background-image: url('/src/img/ian-dooley-I2jxLD6obeM-unsplash.jpg');"> 
-  <!-- <body class="h-screen bg-cover bg-center bg-no-repeat bg-hero-font"> -->
-
+<!-- <body class="bg-gray-800 text-gray-300"> -->
+<body class="bg-cover bg-center" style="background-image: url('/src/img/women/femme-tshirt-black.jpg');">
   <header class="relative">
     <div class="absolute inset-0 bg-gray-800 opacity-50"></div>
     <nav class="flex justify-center space-x-4 p-4 relative z-10">
@@ -21,123 +18,102 @@
     </nav>
   </header>
 
-  <main>
-    <!-- <section class="relative overflow-hidden w-full h-64">
-      <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-20">
-        <div class="flex flex-wrap justify-center gap-x-20">
-          <img src="img/men/clothing-homme.svg" class="w-24 h-24 rounded-full" alt="Icône vêtements pour hommes">
-          <img src="img/kid/clothing-enfant.svg" class="w-24 h-24 rounded-full" alt="Icône vêtements pour enfants"> 
-          <img src="img/women/clothing-femme.svg" class="w-24 h-24 rounded-full" alt="Icône vêtements pour femmes">
+  <main class="text-white">
+    <section id="barre-recherche" class="py-8">
+
+    </section>
+    <!-- Section Promotion -->
+    <section id="promotion" class="py-8">
+      <h3 class="text-center text-2xl font-bold mb-6">Nos Promotions</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
+        <div class="text-center">
+          <img src="/src/img/men/homme-accessoire (5).jpg" alt="Montre Homme" class="w-64 h-96 object-cover mx-auto">
+          <p class="mt-2 text-lg font-semibold">Montre Homme (Marque)</p>
+        </div>
+        <div class="text-center">
+          <img src="/src/img/women/femme-chemise (1).jpg" alt="Chemise Femme" class="w-64 h-96 object-cover mx-auto">
+          <p class="mt-2 text-lg font-semibold">Chemise Femme (Marque)</p>
+        </div>
+        <div class="text-center">
+          <img src="/src/img/kid/enfant-chemise (2).jpg" alt="Chemise Enfant" class="w-64 h-96 object-cover mx-auto">
+          <p class="mt-2 text-lg font-semibold">Chemise Enfant (Kid Pirate)</p>
         </div>
       </div>
-    </section> -->
+    </section>
 
-    <section class="py-8">
-      <h2 class="text-center text-2xl font-bold mb-6">Nous vendons les marques suivantes :</h2>
-      <div class="relative w-full grid grid-cols-2 sm:grid-cols-4 gap-8 items-center justify-center">
-        <img src="/src/img/marque/angry-1294363_1280.png" alt="Marque Angry" class="h-28 mx-auto">
-        <img src="/src/img/marque/celtic-1292841_1280.png" alt="Marque Celtic" class="h-28 mx-auto">
-        <img src="/src/img/marque/Kid Pirate.png" alt="Marque Kid Pirate" class="h-28 mx-auto">
-        <img src="/src/img/marque/flame.png" alt="Marque Flame" class="h-28 mx-auto">
+    <!-- Section Vedettes -->
+    <section id="vedettes" class="py-8">
+      <h3 class="text-center text-2xl font-bold mb-6">Articles Vedettes</h3>
+      <div class="relative w-68 max-w-3xl mx-auto">
+        <!-- Carousel -->
+        <div class="overflow-hidden relative h-128">
+          <div id="carousel" class="flex transition-transform duration-500 ease-in-out">
+            <div class="flex-shrink-0 w-full flex flex-col items-center text-center">
+              <img src="/src/img/men/homme-accessoire (5).jpg" alt="Montre Homme" class="w-full max-w64 h-96 object-cover">
+              <p class="mt-2 text-lg font-semibold">Montre Homme (Marque)</p>
+            </div>
+            <div class="flex-shrink-0 w-full flex flex-col items-center text-center">
+              <img src="/src/img/women/femme-chemise (1).jpg" alt="Chemise Femme" class="w-full max-w64 h-96 object-cover">
+              <p class="mt-2 text-lg font-semibold">Chemise Femme (Marque)</p>
+            </div>
+            <div class="flex-shrink-0 w-full flex flex-col items-center text-center">
+              <img src="/src/img/kid/enfant-chemise (2).jpg" alt="Chemise Enfant" class="w-full max-w64 h-96 object-cover">
+              <p class="mt-2 text-lg font-semibold">Chemise Enfant (Kid Pirate)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel Navigation -->
+        <button id="prev" class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow hover:bg-gray-700">
+          &lt;
+        </button>
+        <button id="next" class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow hover:bg-gray-700">
+          &gt;
+        </button>
       </div>
     </section>
-    <h3 class="text-center font-bold">Articles vedettes</h3>
-    
-    <section class="grid grid-cols-2 sm:grid-cols-4 gap-8 ">
-    <div class="snap-x...">
-     <div class="snap-end... ">
-     <img class="w-full h-full rounded-md" src="/src/img/men/homme-accessoire (2).jpg" alt=""/> 
-     
-    </div>
-    <div>
-     <img class="snap-end... "  src="/src/img/women/femme-chemise (2).jpg" alt="">
-     
-    </div>
-    <div>
-      <img class="snap-end..."  src="/src/img/kid/accessoir-enfant (1).jpg" alt="">
-      
-     </div>
-     <div>
-      <img class="snap-end... "  src="/src/img/men/homme-accessoire (4).jpg" alt="">
-      
-     </div>
-    </div>
+
+    <!-- Section Collaboration -->
+    <section id="collaboration" class="py-8">
+      <h3 class="text-center text-2xl font-bold mb-6">Nos Collaborations</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-7xl mx-auto px-4">
+        <div class="text-center">
+          <img src="/src/img/men/homme-accessoire (5).jpg" alt="Montre Homme" class="w-64 h-64 object-cover mx-auto">
+          <p class="mt-2 text-lg font-semibold">Collaboration Homme</p>
+        </div>
+        <div class="text-center">
+          <img src="/src/img/women/femme-chemise (1).jpg" alt="Chemise Femme" class="w-64 h-64 object-cover mx-auto">
+          <p class="mt-2 text-lg font-semibold">Collaboration Femme</p>
+        </div>
+        <div class="text-center">
+          <img src="/src/img/kid/enfant-chemise (2).jpg" alt="Chemise Enfant" class="w-64 h-64 object-cover mx-auto">
+          <p class="mt-2 text-lg font-semibold">Collaboration Enfant</p>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="relative text-white py-16">
     <div class="absolute inset-0 bg-gray-800 opacity-50"></div>
     <div class="container mx-auto text-center">
-      <div class="mb-6">
-        <h2 class="text-3xl font-bold">******</h2>
-        <p class="text-gray-400 mt-2">Nos  réseaux sociaux</p>
-      </div>
-      <div class="flex justify-center space-x-4 mb-6">
-        <a href="#" class=" text-slate-300 rounded-lg hover:bg-slate-100 ">
-          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M22.675 0H1.325C.593 0 0 .592 0 1.324v21.351C0 23.406.593 24 1.325 24h11.495v-9.294H9.69v-3.622h3.129V8.413c0-3.1 1.893-4.788 4.657-4.788 1.325 0 2.463.099 2.794.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.31h3.587l-.467 3.622h-3.12V24h6.116c.732 0 1.325-.593 1.325-1.325V1.324C24 .592 23.407 0 22.675 0z"/>
-          </svg>
-          </a>
-          <a href="#" class="text-gray-400 hover:text-white">
-          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.332 3.608 1.308.975.975 1.245 2.242 1.308 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.332 2.633-1.308 3.608-.975.975-2.242 1.245-3.608 1.308-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.332-3.608-1.308-.975-.975-1.245-2.242-1.308-3.608-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.062-1.366.332-2.633 1.308-3.608.975-.975 2.242-1.245 3.608-1.308C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.738 0 8.332.014 7.052.072 5.775.129 4.604.381 3.594 1.391 2.585 2.4 2.333 3.571 2.276 4.848.014 8.332 0 8.738 0 12c0 3.262.014 3.668.072 4.948.057 1.277.309 2.448 1.319 3.457 1.009 1.009 2.18 1.261 3.457 1.319C8.332 23.986 8.738 24 12 24c3.262 0 3.668-.014 4.948-.072 1.277-.057 2.448-.309 3.457-1.319 1.009-1.009 1.261-2.18 1.319-3.457.058-1.28.072-1.686.072-4.948 0-3.262-.014-3.668-.072-4.948-.057-1.277-.309-2.448-1.319-3.457C19.396.381 18.225.129 16.948.072 15.668.014 15.262 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-8 3.999 3.999 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/>
-          </svg>
-        </a>
-        <!-- Add more social icons here -->
-      </div>
-      <div class="border-gray-700 pt-6">
-        <p class="text-gray-400">&copy; 2024 *******. All rights reserved.</p>
-      </div>
+      <p class="text-gray-400">&copy; 2024 *******. Tous droits réservés.</p>
     </div>
   </footer>
+
+  <script>
+    const carousel = document.getElementById('carousel');
+    const slides = carousel.children;
+    const totalSlides = slides.length;
+    let currentIndex = 0;
+
+    document.getElementById('prev').addEventListener('click', () => {
+      currentIndex = (currentIndex === 0) ? totalSlides - 1 : currentIndex - 1;
+      carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+    });
+
+    document.getElementById('next').addEventListener('click', () => {
+      currentIndex = (currentIndex === totalSlides - 1) ? 0 : currentIndex + 1;
+      carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+    });
+  </script>
 </body>
 </html>
-
-
-
-
-<!-- code carousel  https://flowbite.com/docs/components/carousel/-->
- 
-
-<div id="controls-carousel" class="relative w-full" data-carousel="static">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-         <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <img src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-    </div>
-    <!-- Slider controls -->
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
-</div>
